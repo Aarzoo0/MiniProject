@@ -1,0 +1,39 @@
+.btn-custom {
+  background-color: #8f8b8a; 
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
+
+.btn-custom:hover {
+  background-color: #9bb6da; 
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; /* Full height of the viewport */
+  padding: 20px;
+  background-image: url('https://miro.medium.com/v2/resize:fit:640/1*4Vz3kM-hYYHvtbBg02qAlQ.jpeg'); /* Replace with your image URL */
+  background-size: cover; 
+  background-position: center; /* Center the background image */
+}
+
+.welcome-title {
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 450px;
+  color: #ffffff; /* White text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+}
